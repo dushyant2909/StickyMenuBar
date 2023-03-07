@@ -1,0 +1,1 @@
+screen&&screen.width>400?window.addEventListener("scroll",function(){let t=document.getElementById("navigationbar");this.window.pageYOffset>=270?t.classList.add("sticky"):t.classList.remove("sticky")}):window.addEventListener("scroll",function(){let t=document.getElementById("navigationbar");this.window.pageYOffset>=75?t.classList.add("sticky"):t.classList.remove("sticky")});
